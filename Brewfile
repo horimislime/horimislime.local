@@ -1,5 +1,6 @@
 update
 tap homebrew/binary
+tap sanemat/font
 tap phinze/homebrew-cask
 
 # ---------------------------------
@@ -26,14 +27,17 @@ install freetype
 install gibo
 install git
 install gnu-sed
+install gnu-time
 install go
 install heroku-toolbelt
+install htop-osx
 install hub
 install jq
 install maven
 install nkf
 install node
 install osxutils
+install phantomjs
 install python
 install readline
 install ricty
@@ -52,16 +56,10 @@ install zsh
 install xz
 
 # middleware
-install jenkins
 install kyoto-cabinet
 install kyoto-tycoon
 install memcached
-install mongodb
-install redis
-install solr
-install zookeeper
 install tomcat
-install phantomjs
 
 # ---------------------------------
 # cask
@@ -69,25 +67,41 @@ install phantomjs
 install brew-cask
 cask install adobe-reader
 cask install appcleaner
+cask install ccmenu
 cask install coteditor
+cask install cyberduck
+cask install disk-inventory-x
 cask install dropbox
 cask install firefox
 cask install flash
 cask install flip4mac
+cask install f-lux
 cask install github
 cask install google-chrome
+cask install google-chrome-canary
 cask install google-drive
-cask install grandperspective
+cask install google-japanese-input
+cask install gyazo
+cask install hipchat
+cask install intellij-idea-ultimate
+cask install istat-menus
 cask install iterm2
 cask install keyremap4macbook
-cask install limechat
+cask install kobito
+cask install launchbar
 cask install lyn
+cask install marked2
+cask install minecraft
+cask install mysqlworkbench
+cask install onepassword
+cask install osxfuse
+cask install pckeyboardhack
 cask install sequel-pro
 cask install silverlight
-cask install skitch
 cask install skype
 cask install sourcetree
 cask install sublime-text
+cask install tunnelblick
 cask install vagrant
 cask install virtualbox
 cask install vlc
