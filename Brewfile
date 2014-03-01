@@ -1,6 +1,7 @@
 update
 tap homebrew/binary
 tap sanemat/font
+tap pivotal/tap
 tap phinze/homebrew-cask
 
 # ---------------------------------
@@ -45,6 +46,7 @@ install rbenv
 install ruby-build
 install sbt
 install scala
+install springboot
 install sqlite
 install ssh-copy-id
 install subversion
