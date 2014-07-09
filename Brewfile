@@ -88,6 +88,7 @@ cask install hipchat
 cask install intellij-idea-ultimate
 cask install istat-menus
 cask install iterm2
+cask install keyboard-maestro
 cask install keyremap4macbook
 cask install kobito
 cask install launchbar
